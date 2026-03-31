@@ -1,4 +1,4 @@
-☠ ABYSSAL OPERATOR — CEH v13 FIELD MANUAL (KILL CHAIN EDITION)
+# ☠ ABYSSAL OPERATOR — CEH v13 FIELD MANUAL (KILL CHAIN EDITION)
 
 > Execution doctrine. Not theory. Not basics.
 This manual documents how access is actually achieved in real-world offensive security workflows.
