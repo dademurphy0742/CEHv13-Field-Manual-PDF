@@ -48,7 +48,7 @@ Practical payload usage
 
 🔗 KILL CHAIN BREAKDOWN
 
-#1. RECON — Build Target Model
+# 1. RECON — Build Target Model
 
 Map the attack surface before interaction.
 
