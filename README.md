@@ -1,5 +1,3 @@
----
-
 ☠ # ABYSSAL OPERATOR — CEH v13 FIELD MANUAL (KILL CHAIN EDITION)
 
 > Execution doctrine. Not theory. Not basics.
