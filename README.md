@@ -71,7 +71,7 @@ dig +short target.com
 
 ---
 
-2. SCANNING — Identify Entry Points
+# 2. SCANNING — Identify Entry Points
 
 Objective: Find exposed services and prioritize attack paths.
 
@@ -100,7 +100,7 @@ Interpretation
 
 ---
 
-3. ENUMERATION — Find Weakness ⚠
+# 3. ENUMERATION — Find Weakness ⚠
 
 > Most critical phase. Failure here = failure everywhere.
 
@@ -127,7 +127,7 @@ snmpwalk -v2c -c public target
 
 ---
 
-4. VULNERABILITY DISCOVERY — Break Logic
+# 4. VULNERABILITY DISCOVERY — Break Logic
 
 Stop hunting “exploits.”
 Start tracing input → processing → output → control.
@@ -173,7 +173,7 @@ Log Poisoning
 
 ---
 
-5. EXPLOITATION — Gain Access
+# 5. EXPLOITATION — Gain Access
 
 Workflow
 
@@ -202,7 +202,7 @@ nc -lvnp 4444
 
 ---
 
-6. PRIVILEGE ESCALATION — Root/Admin
+# 6. PRIVILEGE ESCALATION — Root/Admin
 
 🐧 Linux
 ``` bash
@@ -225,7 +225,7 @@ sc qc servicename
 
 ---
 
-7. POST-EXPLOITATION — Dominate
+# 7. POST-EXPLOITATION — Dominate
 
 Credential Access
 ``` bash
@@ -248,7 +248,7 @@ proxychains <tool>
 
 ---
 
-8. LATERAL MOVEMENT — Own the Network
+# 8. LATERAL MOVEMENT — Own the Network
 
 Techniques
 
