@@ -8,7 +8,7 @@ This manual documents how access is actually achieved in real-world offensive se
 
 ---
 
-⚠ DISCLAIMER
+## ⚠ DISCLAIMER
 
 This material is intended for:
 
@@ -24,7 +24,7 @@ Do not use against systems you do not own or have explicit permission to test.
 
 ---
 
-🧠 OVERVIEW
+## 🧠 OVERVIEW
 
 The Abyssal Operator Field Manual is a stripped-down, high-signal offensive security guide built around the kill chain methodology.
 
@@ -46,13 +46,13 @@ Practical payload usage
 
 ---
 
-🔗 KILL CHAIN BREAKDOWN
+## 🔗 KILL CHAIN BREAKDOWN
 
 # 1. RECON — Build Target Model
 
 Map the attack surface before interaction.
 
-Core Actions
+## Core Actions
 
 Domain intelligence
 
@@ -75,7 +75,7 @@ dig +short target.com
 
 Objective: Find exposed services and prioritize attack paths.
 
-Key Techniques
+## Key Techniques
 
 Full port scan
 
@@ -88,7 +88,7 @@ nmap -p- --min-rate 1000 -T4 target
 nmap -sC -sV -p <ports> target
 nmap -A target
 ```
-Interpretation
+## Interpretation
 
 80/443 → Web surface
 
@@ -106,7 +106,7 @@ Interpretation
 
 
 
-Targets
+## Targets
 
 Web directories & parameters
 
@@ -268,7 +268,7 @@ ssh -D 9050 user@target
 
 ---
 
-☠ FAILURE PROTOCOL
+## ☠ FAILURE PROTOCOL
 
 When stuck:
 
@@ -286,7 +286,7 @@ Change payload context
 
 ---
 
-🧬 FINAL DOCTRINE
+## 🧬 FINAL DOCTRINE
 
 Map systems
 
@@ -302,7 +302,7 @@ Extract control
 
 ---
 
-🚀 USAGE
+## 🚀 USAGE
 
 Study alongside labs (HTB, THM, VulnHub)
 
